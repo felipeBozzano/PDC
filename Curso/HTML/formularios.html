@@ -1,0 +1,64 @@
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>formularios</title>
+    </head>
+    <body>
+        <form action="" method="get">
+            <b>Nombre: </b><input type="text" name="nombre" size="15" maxlength="30"><br>
+            <b>Password: </b><input type="password" name="password" size="15" maxlength="30"><br>
+            <b>Mensaje: </b><br><textarea name=”nombre” cols=”columnas” rows=”filas”></textarea><br>
+
+            <hr>
+
+            <b>Servicio de música</b> <br>
+            <input type="checkbox" name="servicio" value="itunes" > iTunes <br>
+            <input type="checkbox" name="servicio" value="spotify" checked="checked"> Spotify <br>
+            <input type="checkbox" name="servicio" value="youtube"> Youtube Music <br>
+
+            <hr>
+
+            <b>Seleccione su género</b> <br>
+            <input type="radio" name="genero" value="masculino" checked> Masculino <br>
+            <input type="radio" name="genero" value="femenino"> Femenino <br>
+
+            <hr>
+
+            <b>Seleccione el dispositivo que utiliza para escuchar música</b> <br>
+            <select name="dispositivo">
+                <option value="" selected>Dispositivo que utiliza para escuchar música?</option>
+                <option value="ipod">iPod</option>
+                <option value="radio">Radio</option>
+                <option value="computadora">Computadora</option>
+            </select>
+
+            <hr>
+
+            <select name="dispositivo" size="4" multiple>
+                <option value="">Dispositivo que utiliza para escuchar música?</option>
+                <option value="ipod">iPod</option>
+                <option value="radio" selected>Radio</option>
+                <option value="computadora">Computadora</option>
+            </select>
+
+            <hr>
+
+            <fieldset>
+                <legend>Información de contacto</legend>
+                <label for="edad">Edad:</label>
+                <input type="text" name="edad">
+                <label for="email">Email:</label>
+                <input type="text" name="email">
+                <label for="celular">Celular:</label>
+                <input type="text" name="celular">
+                <label for="teléfono">Teléfono:</label>
+                <input type="text" name="teléfono">
+            </fieldset>
+
+            <hr>
+
+            <input type="submit" name="inscripcion" value="Inscripción">
+
+        </form>
+    </body>
+</html>

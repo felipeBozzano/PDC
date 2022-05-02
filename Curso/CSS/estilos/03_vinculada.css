@@ -1,0 +1,19 @@
+@import url(04_importada.css);
+
+h1 {color: darkturquoise;}
+p {color: blueviolet;}
+
+* {font-family: Arial, Helvetica, sans-serif;}
+
+h1.subrayado {text-decoration: underline;}
+
+#mayusculas {text-transform: uppercase; }
+
+a:link { color:chocolate; }       /* Link no visitado */
+a:visited { color: green; }    /* Link que ya se habia visitado */
+a:hover { font-weight: bold; }      /* Cursor sobre el link */
+a:active { color:brown; }     /* Link presionado o al dar click */
+
+img[title] { width: 200px; height: auto; }
+
+img[alt="caballo"] { width: 400px; height: auto; }
